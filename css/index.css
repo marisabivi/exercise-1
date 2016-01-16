@@ -11,15 +11,21 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
+    
+    background-image: url("http://www.photos-public-domain.com/wp-content/uploads/2011/10/black-cat-fur-texture.jpg");
 }
 
 *, *:before, *:after {
 	box-sizing: inherit;
 }
 
+h1 {
+    font-family: sans-serif;
+    color: white;
+}
     
 .btn {
-    background-color: #ccc;
+    /**background-color: #ccc;**/
     color: #fff;
     font-weight: bold;
     text-decoration: none;
@@ -54,11 +60,11 @@ html {
 @media only screen and (min-width: 38em) {
       
 .btn {
-    background-color: #ccc;
+    /**background-color: #ccc;**/
     color: white;
     font-weight: bold;
     text-decoration: none;
-    padding: 8em 50%;
+    padding: 3.5em 20%;
     border-radius: 30px;
     display: inline-block;
     margin: .4em;
@@ -66,7 +72,7 @@ html {
 
 .icon {
     font-family: portfolio;
-    font-size: 10em;
+    font-size: 6em;
     padding-left: .5em
 }
     
@@ -75,21 +81,21 @@ html {
 @media only screen and (min-width: 60em) { 
 
     .btn {
-    background-color: #ccc;
-    color: blue;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 8em 8em;
-    border-radius: 30px;
-    display: inline-block;
-    margin: .4em;
-}
+       /**background-color: #ccc;**/
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+        padding: 8em 25%;
+        border-radius: 30px;
+        display: inline-block;
+        margin: .4em;
+    }
 
-.icon {
-    font-family: portfolio;
-    font-size: 10em;
-    padding-left: .5em
-}
+    .icon {
+        font-family: portfolio;
+        font-size: 8em;
+        padding-left: .5em
+    }
     
 }
 
