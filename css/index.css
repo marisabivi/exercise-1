@@ -17,17 +17,22 @@ html {
 	box-sizing: inherit;
 }
 
-
+    
 .btn {
     background-color: #ccc;
     color: #fff;
     font-weight: bold;
     text-decoration: none;
-    padding: 10em 10em;
-    width: 14em;
-    border-radius: 5px;
+    padding: 4em 16%;
+    border-radius: 30px;
     display: inline-block;
-    margin: .5em;
+    margin: .4em;
+}
+
+.icon {
+    font-family: portfolio;
+    font-size: 8em;
+    padding-left: .5em
 }
 
 .btn:hover,
@@ -39,5 +44,55 @@ html {
 .btn i{
     vertical-align: middle;
     padding-right: .5em;
+    
+}
+
+@media only screen and (min-width: 25em) {
+    
+}
+
+@media only screen and (min-width: 38em) {
+      
+.btn {
+    background-color: #ccc;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8em 50%;
+    border-radius: 30px;
+    display: inline-block;
+    margin: .4em;
+}
+
+.icon {
+    font-family: portfolio;
+    font-size: 10em;
+    padding-left: .5em
+}
+    
+}
+
+@media only screen and (min-width: 60em) { 
+
+    .btn {
+    background-color: #ccc;
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 8em 8em;
+    border-radius: 30px;
+    display: inline-block;
+    margin: .4em;
+}
+
+.icon {
+    font-family: portfolio;
+    font-size: 10em;
+    padding-left: .5em
+}
+    
+}
+
+@media only screen and (min-width: 90em) {   
     
 }
