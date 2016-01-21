@@ -51,52 +51,42 @@ h1 {
 @keyframes shake {
   
   from, to {
-    -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
   }
 
   10% {
-    -webkit-transform: translate3d(-15px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
 
   20% {
-    -webkit-transform: translate3d(15px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
     
   30% {
-    -webkit-transform: translate3d(-15px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
     
   40% {
-    -webkit-transform: translate3d(15px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
 
    50% {
-    -webkit-transform: translate3d(-15px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
     
    60% {
-    -webkit-transform: translate3d(-15px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
     
   70% {
-    -webkit-transform: translate3d(15px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
 
    80% {
-    -webkit-transform: translate3d(-15px, 0, 0);
     transform: translate3d(-10px, 0, 0);
   }
     
    90% {
-    -webkit-transform: translate3d(15px, 0, 0);
     transform: translate3d(10px, 0, 0);
   }
     
@@ -159,53 +149,43 @@ h1 {
 @-webkit-keyframes shake {
   
   from, to {
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
+    -webkit-transform: translate3d(0, 0, 0);;
   }
 
   10% {
     -webkit-transform: translate3d(-15px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
   }
 
   20% {
     -webkit-transform: translate3d(15px, 0, 0);
-    transform: translate3d(10px, 0, 0);
   }
     
   30% {
     -webkit-transform: translate3d(-15px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
   }
     
   40% {
     -webkit-transform: translate3d(15px, 0, 0);
-    transform: translate3d(10px, 0, 0);
   }
 
    50% {
     -webkit-transform: translate3d(-15px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
   }
     
    60% {
     -webkit-transform: translate3d(-15px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
   }
     
   70% {
     -webkit-transform: translate3d(15px, 0, 0);
-    transform: translate3d(10px, 0, 0);
   }
 
    80% {
     -webkit-transform: translate3d(-15px, 0, 0);
-    transform: translate3d(-10px, 0, 0);
   }
     
    90% {
     -webkit-transform: translate3d(15px, 0, 0);
-    transform: translate3d(10px, 0, 0);
   }
     
 }
