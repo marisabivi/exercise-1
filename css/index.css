@@ -46,6 +46,8 @@ h1 {
     color: #aaa;
     animation: shake 1s;
     -webkit-animation: shake 1s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
 }
 
 @keyframes shake {
